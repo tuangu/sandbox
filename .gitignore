@@ -1,0 +1,5 @@
+.venv/
+.west/
+
+# external repos
+repos/

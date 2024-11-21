@@ -1,0 +1,20 @@
+manifest:
+  defaults:
+    remote: tuangu
+
+  remotes:
+    - name: tuangu
+      url-base: https://github.com/tuangu
+
+  projects:
+    - name: m-profile-user-guide-examples
+      description: Armv8-M Architecture - User Guide Examples
+      url: https://github.com/ARM-software/m-profile-user-guide-examples
+      revision: main
+      path: repos/m-profile-user-guide-examples
+    - name: ldd3
+      description: |
+        Linux Device Drivers 3 examples updated to work in recent kernels
+      url: https://github.com/martinezjavier/ldd3
+      revision: master
+      path: repos/ldd3
