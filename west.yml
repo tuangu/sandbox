@@ -1,0 +1,56 @@
+# Docs: https://docs.zephyrproject.org/latest/develop/west/manifest.html
+
+manifest:
+  defaults:
+    remote: default
+
+  remotes:
+    - name: default
+      url-base: https://github.com/tuangu
+
+  projects:
+    - name: m-profile-user-guide-examples
+      description: Armv8-M Architecture - User Guide Examples
+      url: https://github.com/ARM-software/m-profile-user-guide-examples
+      revision: main
+      path: m-profile-user-guide-examples
+      groups:
+        - arm
+
+    - name: learn-arm-assembly
+      description: An introduction to ARM64 assembly on Apple Silicon Macs
+      revision: main
+      repo-path: learn-arm-assembly
+      remote: default
+      path: learn-arm-assembly
+      groups:
+        - arm
+
+    - name: ldd3
+      description: |
+        Linux Device Drivers 3 examples updated to work in recent kernels
+      url: https://github.com/martinezjavier/ldd3
+      revision: master
+      path: ldd3
+      groups:
+        - linux
+
+    - name: simple-autosar-bsw
+      description: Simple AUTOSAR Basic Software
+      url: https://github.com/autoas/ssas-public
+      revision: master
+      path: simple-autosar-bsw
+      groups:
+        - embedded
+        - autosar
+
+    - name: riscv-osblog
+      description: |
+        Source code for Making a RISC-V Operating System using
+        Rust: https://osblog.stephenmarz.com/index.html 
+      url: https://github.com/sgmarz/osblog
+      revision: master
+      path: riscv-os-rust
+      groups:
+        - osdev
+        - riscv

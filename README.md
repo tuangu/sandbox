@@ -9,13 +9,13 @@ Initialize and update with external repos:
 python -m venv .venv
 bash$ source .venv/bin/activate
 # or
-pwsh$ <venv>/bin/Activate.ps1
+pwsh$ .venv/bin/Activate.ps1
 
 # install west
 pip install west
 
 # initialize from existing manifest
-west init -l --mf west.yml manifest
+west init -l --mf west.yml
 
 # update repos
 west update
