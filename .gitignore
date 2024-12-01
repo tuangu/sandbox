@@ -1,2 +1,5 @@
 .venv/
 .west/
+
+# aoc2024: ignore aoc input file
+*_input.txt
